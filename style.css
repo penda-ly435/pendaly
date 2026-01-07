@@ -1,0 +1,89 @@
+
+body {
+    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40;
+}
+form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="password"],
+form textarea,
+form select {
+    border-radius: 4px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.container {
+    max-width: 900px;
+}
+.alert {
+    font-weight: 600;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    table th, table td {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+}
